@@ -10,6 +10,7 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
+      // "@": indica que el alias llevará a la ubicación
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   }

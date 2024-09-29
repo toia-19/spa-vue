@@ -1,0 +1,33 @@
+/* Tipografía para fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
+/* Estilos generales */
+* {
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.navegador{
+    text-align: center;
+}
+
+.ruta{
+    margin: 1rem;
+
+    color: black;
+}
+
+.ruta:hover{
+    color: blue;
+}

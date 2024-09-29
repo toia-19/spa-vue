@@ -15,3 +15,9 @@ _CONFIGURACIONES INICIALES_.
 * EsLint: Yes.
 * Prettier: Yes.
 * Vue DevTools: No.
+
+_INSTALACIÓN DE PAQUETERÍA_.
+* npm install
+
+_RENDERIZACIÓN DE PROYECTO_.
+* npm run dev
